@@ -1,0 +1,15 @@
+package wrapper;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		Integer obj = new Integer(10); // 박싱
+		
+		int sum = obj + 20;
+		
+		System.out.println(sum);
+
+	}
+
+}

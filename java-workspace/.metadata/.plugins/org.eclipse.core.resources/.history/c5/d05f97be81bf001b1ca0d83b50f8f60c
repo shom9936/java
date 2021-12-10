@@ -1,0 +1,16 @@
+package exception;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+//		system.out.println(); // <- System
+		// 컴파일 에러 : 컴파일 자체가 안됨
+		// javac.exe : 자바 컴파일러
+		// 자바 컴파일러 역할 : 번역(구문체크)
+		
+		System.out.println(args[0]);
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package list;
+
+import java.util.*;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		List<String> list = new LinkedList<>();
+		
+		list.add("망고");
+		list.add("파인애플");
+		list.add("바나나");
+		
+		for(String i : list) {
+			System.out.println(i);
+		}
+
+	}
+
+}

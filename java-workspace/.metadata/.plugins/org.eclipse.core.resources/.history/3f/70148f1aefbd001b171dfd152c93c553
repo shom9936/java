@@ -1,0 +1,15 @@
+package wrapper;
+
+public class Ex03 {
+
+	public static void main(String[] args) {
+		
+		Integer obj1 = new Integer(100);
+		Integer obj2 = new Integer(100);
+		
+		// 포장객체 비교
+		System.out.println(obj1 == obj2);
+
+	}
+
+}

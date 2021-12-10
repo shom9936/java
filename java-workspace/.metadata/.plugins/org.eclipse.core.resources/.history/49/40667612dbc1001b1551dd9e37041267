@@ -1,0 +1,29 @@
+package list;
+
+import java.util.*;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		// 자신이 좋아하는 연예인 5명을 String[] 배열에 담고
+		// String 배열을 ArrayList 타입으로 바꾼 후 향상된 for문으로 출력해보자
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String[] name = new String[5];
+		System.out.println("자신이 좋아하는 연예인 5명 입력");
+		
+		for(String n : name) {
+			n = scan.next();
+		}
+		
+		List<String> list = Arrays.asList(name);
+		
+		for(String n : list) {
+			System.out.println(n);
+		}
+		
+	}
+
+}

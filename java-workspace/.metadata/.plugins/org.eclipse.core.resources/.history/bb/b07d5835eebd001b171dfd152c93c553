@@ -1,0 +1,21 @@
+package wrapper;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		Integer obj = new Integer(10); // 박싱
+		
+		int sum = obj + 20; // 자동언박싱
+		
+		System.out.println(sum);
+		
+		printDouble(new Double(123.45));
+
+	}
+	
+	static void printDouble(Double obj) {
+		System.out.println(obj);
+	}
+
+}

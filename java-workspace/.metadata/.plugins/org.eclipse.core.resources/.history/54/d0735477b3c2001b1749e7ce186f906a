@@ -1,0 +1,85 @@
+package program;
+
+import java.util.*;
+
+public class MemberServiceImpl implements MemberService{
+	
+	private HashSet <Member> set;
+	private Scanner scan;
+	
+	public MemberServiceImpl() {
+		set = new HashSet<Member>();
+		scan = new Scanner(System.in);
+	}
+	
+	// interface에 메소드를 오버라이딩해서 안에 구현부를 채워보자
+	
+	@Override
+	public void viewAll() {
+		Iterator <Member> iter = set.iterator();
+		while(iter.hasNext()) { 
+			iter.next().dispMember();
+		}
+	}
+	
+	@Override
+	public void view() {
+		System.out.print("검색할 회원의 이름 : ");
+		String name = scan.next();
+		Iterator <Member> iter = set.iterator();
+		while(iter.hasNext()) {
+			Member mb = iter.next();
+			if(mb.getName().equals(name)) {
+				mb.dispMember();
+				break;
+			}
+		}
+	}
+	
+	@Override
+	public void insert() {
+		System.out.println("회원 등록");
+		System.out.print("이름 : ");
+		String name = scan.next();
+		System.out.print("나이 : ");
+		int age = scan.nextInt();
+		System.out.print("폰번호 : ");
+		String number = scan.next();
+		set.add(new Member(name,age,number));
+	}
+	
+	@Override
+	public void edit() {
+		System.out.print("수정할 회원의 이름 : ");
+		String name = scan.next();
+		Iterator <Member> iter = set.iterator();
+		while(iter.hasNext()) {
+			Member mb = iter.next();
+			if(mb.getName().equals(name)) {
+				System.out.print("나이 : ");
+				int age = scan.nextInt();
+				System.out.print("폰번호 : ");
+				String number = scan.next();
+				set.remove(mb);
+				set.add(new Member(name,age,number));
+				break;
+			}
+		}
+	}
+	
+	@Override
+	public void delete() {
+		System.out.print("삭제할 회원의 이름 : ");
+		String name = scan.next();
+		Iterator <Member> iter = set.iterator();
+		while(iter.hasNext()) {
+			Member mb = iter.next();
+			if(mb.getName().equals(name)) {
+				set.remove(mb);
+				break;
+			}
+		}
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+package exception;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		
+		System.out.println("try - catch 시작");
+		
+		try {
+			System.out.println("try 블록!");
+		}
+		catch(Exception e){
+			System.out.println("예외가 발생???");
+		}
+		finally {
+			
+		}
+
+	}
+
+}

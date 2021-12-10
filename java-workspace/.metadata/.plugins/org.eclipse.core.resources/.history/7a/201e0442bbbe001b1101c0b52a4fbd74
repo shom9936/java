@@ -1,0 +1,17 @@
+package api;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		// Class 객체얻기 첫번째 방법
+		Class clazz1 = Ex04.class;
+		String clazzName = clazz1.getName();
+		System.out.println(clazzName); // 패키지.클래스명
+		
+		String simple = clazz1.getSimpleName();
+		System.out.println(simple);
+
+	}
+
+}

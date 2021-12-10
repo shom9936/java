@@ -1,0 +1,24 @@
+package list;
+
+import java.util.*;
+
+public class Ex06 {
+
+	public static void main(String[] args) {
+		
+		// 자신이 좋아하는 연예인 5명을 String[] 배열에 담고
+		// String 배열을 ArrayList 타입으로 바꾼 후 향상된 for문으로 출력해보자
+		
+		Scanner scan = new Scanner(System.in);
+		
+		String[] strArray = {"유재석", "강호동", "최아린", "배유빈", "김유정"};
+		
+		List<String> list = Arrays.asList(strArray);
+		
+		for(String n : list) {
+			System.out.println(n);
+		}
+		
+	}
+
+}

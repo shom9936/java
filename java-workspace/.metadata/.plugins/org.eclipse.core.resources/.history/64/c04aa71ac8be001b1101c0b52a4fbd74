@@ -1,0 +1,17 @@
+package api;
+
+import java.util.*;
+
+public class Ex11 {
+
+	public static void main(String[] args) {
+		
+		Date now = new Date();
+		// 현재 시스템의 시간으로 객체를 만듬
+		// 그 외에는 잘 사용하지 않는다.
+		System.out.println(now); // 
+		int day = now.getDay();
+		System.out.println(day);
+	}
+
+}

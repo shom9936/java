@@ -1,0 +1,23 @@
+package list;
+
+import java.util.*;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		List<String> list = new ArrayList<String>();
+		
+		list.add(new String("홍길동"));
+		// 원칙 : new 연산자를 이용해서 넣는다.
+		list.add("성춘향");
+		list.add("이몽룡");
+		
+		int size = list.size(); // 저장되어있는 전체 객체의 수를 리턴
+		System.out.println("총 객체 수 : " + size);
+		System.out.println();
+		
+		
+	}
+
+}

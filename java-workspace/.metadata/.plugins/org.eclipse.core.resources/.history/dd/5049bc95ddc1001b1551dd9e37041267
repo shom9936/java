@@ -1,0 +1,29 @@
+package set;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		// Set : 데이터를 중복 저장하지 않음.
+		// HashSet 클래스는 내부에 있는 해쉬테이블을 사용 저장한다.
+		// 데이터의 저장 순서를 유지하지 않는다.
+		// 데이터의 중복 저장을 허용하지 않는다.
+		
+		Set<String> set = new HashSet<>();
+		
+		set.add(new String("홍길동")); // add : 값 넣기
+		// 원칙 : new 연산자를 이용해서 객체를 넣는다.
+		
+		set.add(new String("이순신"));
+		set.add(new String("홍길동")); // set에 중복값 저장 불기
+		set.add(new String("성춘향"));
+		set.add(new String("이몽룡"));
+		
+		System.out.println("set의 크기 : " + set.size());
+
+	}
+
+}

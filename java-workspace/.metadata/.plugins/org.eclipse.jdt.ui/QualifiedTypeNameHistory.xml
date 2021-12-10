@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="inner.Outer1.Inner1"/>
+    <fullyQualifiedTypeName name="inner.Outer2.Inner2"/>
+    <fullyQualifiedTypeName name="inner.Outer3.Inner3"/>
+    <fullyQualifiedTypeName name="inheritance.Sedan"/>
+    <fullyQualifiedTypeName name="interface1.Animal"/>
+    <fullyQualifiedTypeName name="interface1.KumhoTire"/>
+    <fullyQualifiedTypeName name="interface1.Vehicle"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.text.Normalizer"/>
+    <fullyQualifiedTypeName name="interface1.IronMan"/>
+    <fullyQualifiedTypeName name="interface1.NormalIronSuit"/>
+    <fullyQualifiedTypeName name="interface1.NewIronSuit"/>
+    <fullyQualifiedTypeName name="interface1.Price"/>
+    <fullyQualifiedTypeName name="interface1.CoffeOrder"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="interface1.CoffeeShop"/>
+    <fullyQualifiedTypeName name="interface1.NormalPrice"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="exception.MyException"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="generic.GenericBox"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Array"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="set.SimpleNumber"/>
+    <fullyQualifiedTypeName name="set.SimpleNumber2"/>
+    <fullyQualifiedTypeName name="set.Person"/>
+    <fullyQualifiedTypeName name="map.ProfileInfo"/>
+    <fullyQualifiedTypeName name="program.MemberService"/>
+</qualifiedTypeNameHistroy>

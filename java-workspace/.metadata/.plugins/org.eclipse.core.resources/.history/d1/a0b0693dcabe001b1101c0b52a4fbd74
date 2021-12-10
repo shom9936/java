@@ -1,0 +1,13 @@
+package api;
+
+public class Ex12 {
+
+	public static void main(String[] args) {
+		
+		// Calendar 클래스를 사용해서
+		// 년도와 월을 입력받아서 달력을 만들어보자
+		Scanner scan = new Scanner(System.in);
+
+	}
+
+}

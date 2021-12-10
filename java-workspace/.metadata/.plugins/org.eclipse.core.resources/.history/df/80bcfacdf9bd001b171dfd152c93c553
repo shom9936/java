@@ -1,0 +1,22 @@
+package string;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		//String 메소드
+		
+		String str1 = "Hello world";
+		
+		// charAt : 해당위치의 문자 하나를 char형으로 반환한다.
+		System.out.println("charAt : " + str1.charAt(0));
+		
+		// isEmpty : 해당 변수가 비어있으면 true를 아니면 false를 리턴해준다.
+		System.out.println("isEmpty : " + str1.isEmpty());
+		String str2;
+		System.out.println("isEmpty : " + str2.isEmpty());
+		
+
+	}
+
+}

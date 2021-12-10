@@ -1,0 +1,17 @@
+package string;
+
+public class Ex04 {
+
+	public static void main(String[] args) {
+		
+		//String 메소드
+		
+		String str1 = "Hello world";
+		
+		// charAt : 해당위치의 문자 하나를 char형으로 반환한다.
+		System.out.println("charAt(0) : " + str1.charAt(0));
+		
+
+	}
+
+}
